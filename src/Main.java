@@ -5,7 +5,7 @@ public class Main {
         CreditPaymentService service = new CreditPaymentService();
         double sumCredit = 1_000_000;
         double loanTerm = 12;
-        int monthlyPayment = (int) service.calculate(sumCredit,loanTerm);
-        System.out.println (monthlyPayment);
-        }
+        int monthlyPayment = (int) service.calculate(sumCredit, loanTerm);
+        System.out.println(monthlyPayment);
     }
+}
